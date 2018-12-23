@@ -1,4 +1,4 @@
-package com.jerome;
+package com.blabla;
 
 public class analyzeWord {
 
