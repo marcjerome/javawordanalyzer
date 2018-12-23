@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Word Analyzer</title>
+
+<style>
+	body {
+		 background-color:#4286f4;
+	}
+	
+	 h1  {
+		color: white;
+		margin: auto;
+		font-size: 5em;
+		text-align:center;
+	}
+	
+	main {
+		background-color: white;
+		height: auto;
+		width: auto;
+		margin:auto;
+	}
+	
+	.center{
+		 margin: auto;
+ 		 width: 50%;
+  		 padding: 10px;
+	}
+	
+	.center form {
+  		margin: auto;
+  		width: 50%;
+  		padding: 10px;
+	}
+	
+	iframe {
+		margin-left: 26%;
+	}
+</style>
+
+</head>
+<body>
+
+	<h1> WORD ANALYZER </h1>
+	<br><br>
+	<main>
+	<div class="center">
+		<form action="analyze" target="output">
+			<input type="text" name="word">
+			
+					
+			<select name="options">
+	  			<option value="1">Palindrome</option>
+	  			<option value="2">Heterogram</option>
+	 			<option value="3">Isogram-2</option>
+	 		    <option value="4">All Tests</option>
+			</select>
+			
+			<input type="submit">
+		</form>
+		
+		<iframe name="output"></iframe>
+
+  	</div>
+	</main>
+	
+</body>
+</html>
+
