@@ -1,4 +1,4 @@
-package com.blabla;
+package WordAnalyzer;
 import java.io.IOException;
 import java.io.PrintWriter;
 

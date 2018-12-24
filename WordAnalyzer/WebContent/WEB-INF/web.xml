@@ -4,7 +4,7 @@
   
   <servlet>
   	<servlet-name>abc</servlet-name>
-  	<servlet-class>com.blabla.AnalyzeServlet</servlet-class>
+  	<servlet-class>WordAnalyzer.AnalyzeServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>

@@ -1,4 +1,4 @@
-package com.blabla;
+package WordAnalyzer;
 
 public class analyzeWord {
 
@@ -22,7 +22,7 @@ StringBuilder output = new StringBuilder();
 		}
 		
 		catch(Exception e) {
-			
+			output.append(e.toString());
 		}
 	}
 
@@ -30,9 +30,8 @@ StringBuilder output = new StringBuilder();
 		checkPalindrome(word);
 		checkHeterogram(word);
 		checkIsogram2(word);
-
-		
 	}
+	
 	private  void checkIsogram2(String word) {
 		int count = 0;
 		boolean flag = true;
@@ -57,15 +56,25 @@ StringBuilder output = new StringBuilder();
 	}
 
 	private  void checkHeterogram(String word) {
-		
-		for (int index = 0; index < word.length(); index++) {
-			if(word.contains(String.valueOf(word.charAt(index)))) {
-				output.append("Is Heterogram: false \n");
+		int count = 0;
+		boolean flag = true;
+		while (count < word.length()) {
+			int index = count;
+			long nOfOccurences = word.chars().filter(s -> s == word.charAt(index)).count();
+			if (nOfOccurences != 1) {
+				flag = false;
 				break;
 			}
 			else {
-				output.append("Is Heterogram: true \n");
+				count++;
 			}
+		}
+			
+		if (flag == false) {
+			output.append("Is Heterogram: false \n");
+		}
+		else {
+			output.append("Is Heterogram: true \n");
 		}	
 	}
 
