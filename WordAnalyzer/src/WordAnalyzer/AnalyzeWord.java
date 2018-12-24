@@ -2,7 +2,7 @@ package WordAnalyzer;
 
 public class AnalyzeWord {
 
-	static StringBuilder output = new StringBuilder();
+static StringBuilder output = new StringBuilder();
 	
 	public static String analyze(String s, int option) {
 		
@@ -21,7 +21,7 @@ public class AnalyzeWord {
 		else if(option == 4) {
 			checkAll(word);
 		}
-
+	
 		return output.toString();
 	}
 
@@ -107,6 +107,5 @@ public class AnalyzeWord {
 		}
 		
 	}
-
 	
 }
