@@ -2,8 +2,8 @@
  A simple java web application that analyzes word based on the user selected test
 
 # Screenshots
-![alt text](https://imgur.com/kM30ivA)
-![alt text](https://imgur.com/Rnf0t4y)
+ ![screenshot1](https://i.imgur.com/kM30ivA.png)
+ ![screenshot2](https://i.imgur.com/Rnf0t4y.png)
 
 # Tech Used
 Built with:
