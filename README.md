@@ -1,11 +1,11 @@
 # Java Word Analyzer
  A simple java web application that analyzes word based on the user selected test
 
-#Screenshots
+# Screenshots
 ![alt text](https://imgur.com/kM30ivA)
 ![alt text](https://imgur.com/Rnf0t4y)
 
-#Tech Used
+# Tech Used
 Built with:
 * Java Servlets
 
